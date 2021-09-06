@@ -1,0 +1,3 @@
+steps:
+- name: gcr.io/cloud-builders/gsutil
+  args: ['rsync', '-d', './', 'gs://us-central1-triggers-demo-1106f1a5-bucket/dags']
